@@ -8,8 +8,8 @@ app:
   replicas: 1
 
 image:
-  repository: quay.io/datawire
-  tag: 0.40.0
+  repository: docker.io/drmoskit
+  tag: "0.51.2"
   pullPolicy: IfNotPresent
 
 service:
